@@ -1,0 +1,64 @@
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  white-space: nowrap;
+  transition: var(--transition-fast);
+  isolation: isolate;
+  overflow: hidden;
+}
+
+/* Sizes */
+.sm { padding: 0.65rem 1.4rem; font-size: var(--fs-small); }
+.md { padding: 0.9rem 2rem; font-size: 1rem; }
+.lg { padding: 1.1rem 2.6rem; font-size: 1.05rem; }
+
+/* Primary - gradient filled */
+.primary {
+  background: var(--gradient-primary);
+  color: var(--color-white);
+  box-shadow: 0 4px 24px rgba(139, 92, 246, 0.3);
+}
+
+.primary:hover {
+  box-shadow: var(--shadow-glow-purple), 0 4px 30px rgba(59, 130, 246, 0.4);
+}
+
+/* Secondary - outlined glass */
+.secondary {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  color: var(--color-white);
+  backdrop-filter: var(--glass-blur);
+}
+
+.secondary:hover {
+  border-color: var(--color-cyan);
+  box-shadow: 0 0 24px rgba(34, 211, 238, 0.25);
+}
+
+/* Ghost - text only */
+.ghost {
+  background: transparent;
+  color: var(--color-white-muted);
+  padding-inline: var(--space-sm);
+}
+
+.ghost:hover {
+  color: var(--color-cyan);
+}
+
+.label {
+  position: relative;
+  z-index: 1;
+}
+
+.icon {
+  display: inline-flex;
+  position: relative;
+  z-index: 1;
+}

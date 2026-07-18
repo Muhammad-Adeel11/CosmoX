@@ -1,0 +1,61 @@
+:root {
+  /* === Colors === */
+  --color-bg: #050816;
+  --color-bg-secondary: #0B1023;
+  --color-bg-elevated: #0F1530;
+
+  --color-electric-blue: #3B82F6;
+  --color-purple: #8B5CF6;
+  --color-cyan: #22D3EE;
+  --color-white: #F8FAFC;
+  --color-white-muted: rgba(248, 250, 252, 0.7);
+  --color-white-faint: rgba(248, 250, 252, 0.45);
+
+  --gradient-primary: linear-gradient(135deg, var(--color-electric-blue) 0%, var(--color-purple) 100%);
+  --gradient-cyan: linear-gradient(135deg, var(--color-cyan) 0%, var(--color-electric-blue) 100%);
+  --gradient-radial-glow: radial-gradient(circle at center, rgba(139, 92, 246, 0.25) 0%, transparent 70%);
+
+  --glass-bg: rgba(255, 255, 255, 0.04);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: blur(16px);
+
+  /* === Typography === */
+  --font-primary: 'Sora', -apple-system, sans-serif;
+  --font-mono: 'Space Mono', monospace;
+
+  --fs-hero: clamp(2.75rem, 6vw, 6rem);
+  --fs-h1: clamp(2.25rem, 4vw, 3.5rem);
+  --fs-h2: clamp(1.75rem, 3vw, 2.5rem);
+  --fs-h3: clamp(1.25rem, 2vw, 1.75rem);
+  --fs-body: clamp(1rem, 1.1vw, 1.125rem);
+  --fs-small: 0.875rem;
+
+  /* === Spacing scale (8px base) === */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+  --space-3xl: 9rem;
+
+  /* === Radius / Shadow === */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 999px;
+
+  --shadow-glow-blue: 0 0 40px rgba(59, 130, 246, 0.35);
+  --shadow-glow-purple: 0 0 40px rgba(139, 92, 246, 0.35);
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
+
+  /* === Layout === */
+  --max-width: 1400px;
+  --header-height: 88px;
+
+  /* === Transitions === */
+  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 0.2s var(--ease-smooth);
+  --transition-medium: 0.4s var(--ease-smooth);
+  --transition-slow: 0.8s var(--ease-smooth);
+}

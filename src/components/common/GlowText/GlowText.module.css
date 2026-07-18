@@ -1,0 +1,9 @@
+.glowText {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.35));
+}
+
+.primary { background-image: var(--gradient-primary); }
+.cyan { background-image: var(--gradient-cyan); }
