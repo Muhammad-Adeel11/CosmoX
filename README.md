@@ -2,13 +2,25 @@
 
 A premium, cinematic space-exploration landing page and mission dashboard built with **React**, **Vite**, **React Three Fiber**, and **Framer Motion**. Designed to feel like the intersection of NASA, SpaceX, Tesla, and Apple — built for a Full Stack Web Development Internship submission.
 
+![Status](https://img.shields.io/badge/status-live-brightgreen)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-Build-646CFF?logo=vite&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-3D-000000?logo=three.js&logoColor=white)
+![License](https://img.shields.io/badge/license-Educational-blue)
+
 ![CosmoX Banner](https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop)
+
+### 🔗 [**Live Demo — cosmo-x-5ha1.vercel.app**](https://cosmo-x-5ha1.vercel.app/)
+
+### 🎥 Video Walkthrough — *[link coming soon]*
 
 ---
 
 ## 📖 Table of Contents
 
 - [Overview](#-overview)
+- [Live Demo](#-live-demo)
+- [Video Walkthrough](#-video-walkthrough)
 - [Features](#-features)
 - [Tech Stack](#️-tech-stack)
 - [Folder Structure](#-folder-structure)
@@ -24,6 +36,7 @@ A premium, cinematic space-exploration landing page and mission dashboard built 
 - [Deployment](#-deployment)
 - [Troubleshooting](#-troubleshooting)
 - [Roadmap / Future Improvements](#-roadmap--future-improvements)
+- [Video Walkthrough Script](#-video-walkthrough-script)
 - [License](#-license)
 
 ---
@@ -39,6 +52,26 @@ A premium, cinematic space-exploration landing page and mission dashboard built 
 - A clean, scalable, production-style **component architecture**
 
 This project was built to demonstrate production-level frontend engineering and UI/UX design skills for a Full Stack Web Development Internship.
+
+---
+
+## 🔗 Live Demo
+
+The project is deployed and live on Vercel:
+
+**[https://cosmo-x-5ha1.vercel.app/](https://cosmo-x-5ha1.vercel.app/)**
+
+Open it on desktop first to see the full 3D hero experience, then resize the browser (or open on mobile) to see the responsive breakpoints in action.
+
+---
+
+## 🎥 Video Walkthrough
+
+A short walkthrough demonstrating the site's design, animations, and responsive behavior across desktop, tablet, and mobile:
+
+**[▶️ Watch the video — link to be added]**
+
+*(This section will be updated with the final video link before submission. See the [demo script](#-video-walkthrough-script) at the bottom of this README for what the video covers.)*
 
 ---
 
@@ -351,6 +384,33 @@ netlify deploy --prod --dir=dist
 - Add dark/light theme toggle
 - Add real-time mission tracking data via a live API
 - Add page transition animations between routes (if expanded into a multi-page app)
+
+---
+
+## 🎬 Video Walkthrough Script
+
+Reference script used for the [video walkthrough](#-video-walkthrough) linked above — a 2-minute demonstration of the site's design and responsive behavior.
+
+**[0:00–0:15] — Intro**
+"Hi, I'm [your name], and this is CosmoX — a space exploration landing page I built for my Full Stack Internship using React, Vite, Three.js, and Framer Motion. Let me walk you through the design and show how it responds across devices."
+
+**[0:15–0:35] — Desktop Hero**
+"Here's the hero section on desktop — you can see the animated 3D Earth built with React Three Fiber, rotating in real time alongside a procedurally modeled astronaut. The headline animates in on load, and scrolling reveals the animated statistics below."
+
+**[0:35–0:55] — Scroll Through Sections**
+"As I scroll, notice the smooth-scroll behavior powered by Lenis, plus scroll-triggered animations on every section — mission cards fade and lift in, the planet gallery responds to mouse movement with a 3D tilt effect, and the timeline animates left-to-right on desktop."
+
+**[0:55–1:15] — Resize to Tablet**
+"Now let's resize down to tablet width. Notice the grid layouts adapt — the four-column stats become two columns, mission cards restack, and navigation remains fully usable."
+
+**[1:15–1:40] — Resize to Mobile**
+"On mobile, the navbar collapses into a hamburger menu, the timeline switches from a zig-zag layout to a single vertical line, and all touch targets remain accessible. The 3D scene stays performant thanks to a capped particle count and lightweight procedural geometry instead of a heavy imported model."
+
+**[1:40–1:55] — Contact Form**
+"Finally, here's the contact form with live validation — submitting an empty field shows inline error messages, and a valid submission shows a success confirmation."
+
+**[1:55–2:00] — Close**
+"That's CosmoX — a fully responsive, animated, production-structured React project, live at cosmo-x-5ha1.vercel.app. Thanks for watching!"
 
 ---
 
