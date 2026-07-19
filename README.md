@@ -12,7 +12,7 @@ A premium, cinematic space-exploration landing page and mission dashboard built 
 
 ### 🔗 [**Live Demo — cosmo-x-5ha1.vercel.app**](https://cosmo-x-5ha1.vercel.app/)
 
-### 🎥 Video Walkthrough — *[link coming soon]*
+### 🎥 Video Walkthrough — *[https://github.com/Muhammad-Adeel11/CosmoX/blob/main/CosmoX%20Video%20Walkthrough.mp4]*
 
 ---
 
